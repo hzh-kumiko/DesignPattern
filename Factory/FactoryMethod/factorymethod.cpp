@@ -1,7 +1,16 @@
 #include<iostream>
 
 using namespace std;
-
+/*
+	一个抽象产品类
+	多个具体产品类
+	一个抽象工厂类
+	多个具体工厂类
+	一个具体产品对应一个具体工厂
+	符合开闭原则
+	当有一个新产品时加一个具体产品类合一个具体工厂类
+	需要的类可能很多
+*/
 class Drink {
 public:
 	virtual int getVol() = 0;

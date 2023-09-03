@@ -2,7 +2,14 @@
 
 
 using namespace std;
-
+/*
+	一个抽象产品类
+	多个具体产品类
+	一个具体工厂类
+	在一个工厂内实现判断要生产哪一种产品
+	不符合开闭原则，当有新产品时会在工厂类内部加新的实现
+	结构简单
+*/
 class Product {
 public:
 	Product(int r):x(r){}
